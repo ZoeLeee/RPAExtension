@@ -1,0 +1,15 @@
+{
+  "name": "workspaces",
+  "private": "true",
+  "module": "index.ts",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --filter=rpa"
+  },
+  "devDependencies": {
+    "turbo": "^1.11.3"
+  }
+}
